@@ -104,14 +104,18 @@
  void setup() {
  size(400, 400);
  background(0);
+ }
  
+void draw() {
  //for loop
-
- for (int i = 0; i < 400; i = i + 20){
-   print(i);
-   ellipse(100 + i, 100, 50, 50);
- }
- }
+ //   inicializamos variable; condición ;    Incremento
+ for (int i = 0;              i < 400;       i=i+10){
+   for(int j = 0; j < 400; j=j+10){
+   //      posX    posY
+   ellipse(i, j, 50, 50);
+  }
+ } 
+}
  
  
  
