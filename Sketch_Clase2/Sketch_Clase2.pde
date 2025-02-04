@@ -36,17 +36,41 @@
 
 //Las variables bullian solo intereprentan variables de true or false
 
-boolean isActive;
+//boolean isActive;
 
-void setup() {
-  size(500, 500);
-  isActive = true;
+//void setup() {
+  //size(500, 500);
+  //isActive = true;
 
 //void draw(){
-  if(isActive){
-  print("true");
-  } else{
-    print("False");
+  //if(isActive){
+  //print("true");
+ // } else{
+ //   print("False");
+//  }
+  
+ //EJERCICIO 4
+ int distancia;
+  
+  void setup() {
+  size(500, 500);
+  distancia = 30;
+
+//Mayor que >
+//Menor que <
+// Igual a ==
+//Simbolos que sirven para especifiacr algun tipo de función en los condicionales
+
+
+//verificar igualdad
+  if(distancia == 30){
+  print("La distancia es IGUAL a 30");
+  } else if (distancia > 30){
+    print("La distancia en MAYOR a 30");
+  }else if (distancia < 30) {
+    print("La distancia en MENOR a 30");
+  } else { 
+    print("Hola");
   }
   
   
