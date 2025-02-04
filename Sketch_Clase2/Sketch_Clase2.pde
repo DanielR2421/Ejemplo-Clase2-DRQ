@@ -50,44 +50,67 @@
 //  }
   
  //EJERCICIO 4
- int distancia;
+// int distancia;
   
-  void setup() {
-  size(500, 500);
-  distancia = 30;
+ // void setup() {
+//  size(500, 500);
+//  distancia = 30;
 
 //Mayor que >
 //Menor que <
-// Igual a ==
+// Igual a == (igualdad estricta
 //Simbolos que sirven para especifiacr algun tipo de función en los condicionales
 
-
 //verificar igualdad
-  if(distancia == 30){
-  print("La distancia es IGUAL a 30");
-  } else if (distancia > 30){
-    print("La distancia en MAYOR a 30");
-  }else if (distancia < 30) {
-    print("La distancia en MENOR a 30");
-  } else { 
-    print("Hola");
-  }
+ // if(distancia == 30){
+ // print("La distancia es IGUAL a 30");
+ // } else if (distancia > 30){
+ //   print("La distancia en MAYOR a 30");
+ // }else if (distancia < 30) {
+ //   print("La distancia en MENOR a 30");
+//  } else { 
+ //   print("Hola");
+ // }
   
-  
-  // ellipse(mouseX, mouseY, 50, 50);
-  
-  
-  
-}
+  //Si hay indicadores en los corchetes es que no estan cerrados - mejor organizar el codigo
+  // ellipse(mouseX, mouseY, 50, 50);  
+//}
 
+
+  //EJERCICIO 5
+ 
+// void setup() {
+// size(500, 500);
+// }
+ 
+// void draw() {
+// if(mouseX > 200){
+// ellipse(mouseX, mouseY, 50, 50);
+// } else if(mouseX > 30); {
+//  ellipse(mouseX, mouseY, 10, 10);
+// } else
+// line(0, 0, 500, 500);
+// }
  
  
  
+
+// }
+//}
  
  
+ // EJERCICIO 6 BUCLES
  
+ void setup() {
+ size(400, 400);
+ background(0);
  
+ //for loop
  
+ for (int i = 0; i < 10; i++){
+   print(i);
+ }
+ }
  
  
  
