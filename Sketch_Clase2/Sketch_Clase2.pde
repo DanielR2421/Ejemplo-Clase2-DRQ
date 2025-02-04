@@ -106,9 +106,10 @@
  background(0);
  
  //for loop
- 
- for (int i = 0; i < 10; i++){
+
+ for (int i = 0; i < 400; i = i + 20){
    print(i);
+   ellipse(100 + i, 100, 50, 50);
  }
  }
  
