@@ -21,11 +21,12 @@
 
 void setup() {
   size(800, 800);
-  background(0);
+  
 }
 void draw(){
   //x1, y1, x2, y2)
   //coordenadas de centro, ancho , alto
+  background(0);
   ellipse(mouseX, mouseY, 50, 50);
 }
 
