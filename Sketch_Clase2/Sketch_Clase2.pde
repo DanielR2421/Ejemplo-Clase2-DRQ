@@ -1,3 +1,4 @@
+//EJERCICIO 1
 //int unitSize = 50; //Pixels per unit
 //int horizontalCenter;
 //int verticalCenter;
@@ -19,17 +20,41 @@
 
 //el void draw son fotogramas (imagenes individuales de un video)
 
-void setup() {
-  size(800, 800);
+//EJERCICIO 2
+//void setup() {
+  //size(800, 800);
   
-}
-void draw(){
+//}
+//void draw(){
   //x1, y1, x2, y2)
   //coordenadas de centro, ancho , alto
-  background(0);
-  ellipse(mouseX, mouseY, 50, 50);
-}
+//  background(0);
+//  ellipse(mouseX, mouseY, 50, 50);
+//}
 
+//EJERCICIO 3
+
+//Las variables bullian solo intereprentan variables de true or false
+
+boolean isActive;
+
+void setup() {
+  size(500, 500);
+  isActive = true;
+
+//void draw(){
+  if(isActive){
+  print("true");
+  } else{
+    print("False");
+  }
+  
+  
+  // ellipse(mouseX, mouseY, 50, 50);
+  
+  
+  
+}
 
  
  
