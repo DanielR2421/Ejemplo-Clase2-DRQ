@@ -99,7 +99,7 @@
 //}
  
  
- // EJERCICIO 6 BUCLES
+ // EJERCICIO 6 BUCLES = Teselados esto es el trabajo de la proxima semana
  
  void setup() {
  size(800, 800);
@@ -107,14 +107,30 @@
  }
  
 void draw() {
-
+  
   //for loop
  //   inicializamos variable; condición ;    Incremento
- for (int i = 0;              i < width;       i=i+10){
-   for(int j = 0; j < height; j=j+10){
-   //      posX    posY
-   ellipse(i, j, 50, 50);
+ for (int i = 0;              i < width;       i=i+20){
+   for(int j = 0; j < height; j=j+80){
+     fill(255);
+   quad(i, j, i+20, j, i+40, j+20, i+20, j+20);
+     
+    }
+    i=i+60;
+ }   
+      for (int i = 0;              i < width;       i=i+20){
+   for(int j = 0; j < height; j=j+40){
+     fill(110);
+   quad(i, j, i+20, j, i+40, j+20, i+20, j+20);
+     
+     //      posX    posY
+   //ellipse(i, j, 50, 50);
+   
+     //      posX    posY
+   //ellipse(i, j, 50, 50);
+   
   }
+  i=i+60;
  } 
 }
  
