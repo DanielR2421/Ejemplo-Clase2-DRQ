@@ -102,15 +102,16 @@
  // EJERCICIO 6 BUCLES
  
  void setup() {
- size(400, 400);
+ size(800, 800);
  background(0);
  }
  
 void draw() {
- //for loop
+
+  //for loop
  //   inicializamos variable; condición ;    Incremento
- for (int i = 0;              i < 400;       i=i+10){
-   for(int j = 0; j < 400; j=j+10){
+ for (int i = 0;              i < width;       i=i+10){
+   for(int j = 0; j < height; j=j+10){
    //      posX    posY
    ellipse(i, j, 50, 50);
   }
